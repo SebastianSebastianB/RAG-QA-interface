@@ -41,7 +41,7 @@ Potencjalne zastosowanie to nie tylko Q&A na podstawie dokumentów, raportów or
 
 Ten tutorial pokazuje, jak zbudować własny system Q&A do dokumentów PDF w oparciu o architekturę RAG.  
 Repozytorium zawiera polskojęzyczną wersję **materiałów dydaktycznych** przygotowanych na potrzeby laboratorium komputerowego dla studentów. 
-Poziom zaawansowania: **średniozaawansowany** (wymagana podstawowa znajomość Pythona i zagadnień NLP).  
+Poziom zaawansowania: **średniozaawansowany** (wymagana podstawowa znajomość Pythona i zagadnień NLP - Natural Language Processing).  
 
 **Główne technologie:**
 - HuggingFace (Sentence Transformers, LLM)
