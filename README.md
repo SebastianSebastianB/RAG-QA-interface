@@ -16,6 +16,12 @@ Dzięki temu możesz stworzyć własną, spersonalizowaną dystrybucję Debiana!
 
 Połącz oba tutoriale i stwórz własny system Q&A działający od razu po uruchomieniu z pendrive’a na PC lub na wirtualnej maszynie!
 
+Ten projekt łączy w sobie: **RAG + HuggingFace + ChromaDB + Gradio**. Takie połączenie ma potencjał stworzenia systemu działającego całkowicie offline, bez konieczności łączenia się z usługami firm trzecich. Zapewnia to pełną kontrolę i bezpieczeństwo przetwarzanych danych, jednak wymaga posiadania oraz utrzymania odpowiednio wydajnego sprzętu obliczeniowego.
+
+Potencjalne zastosowanie to nie tylko Q&A na podstawie dokumentów, raportów oraz danych firmowych, ale też w:
+- istytucjach użyteczności publicznej (Urzędy, Muzea itp.),
+- konferencje naukowe.
+
 ---
 
 ## 📋 Spis treści
@@ -26,7 +32,8 @@ Połącz oba tutoriale i stwórz własny system Q&A działający od razu po uruc
 4. [Instalacja](#instalacja)
 5. [Szybki start](#szybki-start)
 6. [Jak to działa?](#jak-to-działa)
-7. [Autor i licencja](#autor-i-licencja)
+7. [Plan dalczych prac](#plan-dalczych-prac)
+8. [Autor i licencja](#autor-i-licencja)
 
 ---
 
@@ -129,6 +136,26 @@ RAG/
 - [HuggingFace Hub](https://huggingface.co/)
 
 ---
+## Plan dalczych prac
+
+W kolejnych etapach rozwoju projektu planuje się:
+
+- **Integracja z OpenAI (płatny plan)**  
+  Dodanie możliwości korzystania z modeli językowych OpenAI (np. GPT-4) dla jeszcze wyższej jakości generowanych odpowiedzi, z opcją wyboru modelu przez użytkownika.
+
+- **Obsługa bazy wektorowej Pinecone**  
+  Wprowadzenie wsparcia dla zewnętrznej, skalowalnej bazy wektorowej Pinecone, co umożliwi obsługę większych zbiorów dokumentów oraz łatwiejsze wdrożenia produkcyjne.
+
+- **Rozbudowa interfejsu Gradio**  
+  - Możliwość wprowadzania dodatkowych parametrów (np. liczba zwracanych fragmentów, wybór modelu embeddingów/LLM).
+  - Opcja wyboru i przełączania pomiędzy różnymi modelami językowymi (HuggingFace, OpenAI lub modele lokalne).
+  - Dodawanie kolejnych plików PDF bezpośrednio z poziomu interfejsu.
+  - Generowanie i prezentacja prostych statystyk dotyczących bazy wektorowej oraz załadowanych plików PDF (np. liczba dokumentów, liczba fragmentów, rozmiar bazy).
+
+- **Dalsze usprawnienia**  
+  - Optymalizacja wydajności i obsługa większych zbiorów danych.
+  - Możliwość eksportu wyników i historii zapytań.
+  - Integracja z innymi źródłami danych (np. pliki tekstowe, Word, Excel).
 
 ---
 
