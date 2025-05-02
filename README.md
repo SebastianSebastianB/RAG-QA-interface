@@ -164,9 +164,7 @@ W kolejnych etapach rozwoju projektu planuje się:
 ## Autor i licencja
 
 Autor: [Sebastian Bartel](https://github.com/SebastianSebastianB)
-
 E-mail: umbraos@icloud.com
-
 Licencja: MIT
 
 ---
