@@ -55,7 +55,9 @@ Poziom zaawansowania: **średniozaawansowany** (wymagana podstawowa znajomość 
 
 Po uruchomieniu aplikacji Gradio możesz zadawać pytania dotyczące załadowanych dokumentów PDF i otrzymywać odpowiedzi generowane przez model językowy.
 
-![WebUI Gragio](images/gradio.png)
+![WebUI Gragio Demo1](images/Demo1.png)
+
+![WebUI Gragio Demo2](images/Demo2.png)
 
 ---
 
@@ -86,7 +88,7 @@ pip install sentence-transformers langchain chromadb pypdf gradio
 
 1. Umieść swoje pliki PDF w katalogu `data/`.
 2. Skonfiguruj swój token HuggingFace (`HUGGINGFACEHUB_API_TOKEN`).
-3. Uruchom notatnik `RAG_HF_PL.ipynb`.
+3. Uruchom notatnik [`RAG_HF_PL.ipynb`](RAG/notebooks/RAG_HF_PL.ipynb).
 4. Postępuj zgodnie z instrukcjami w notebooku – kolejne komórki przeprowadzą Cię przez:
     - Wczytanie i podział dokumentów PDF na fragmenty
     - Generowanie embeddings i budowę bazy wektorowej
